@@ -762,27 +762,126 @@ export default function Home() {
 
       </section>
 
-      {/* FOOTER */}
+      {/* ================================================= */}
+{/* FOOTER */}
+{/* ================================================= */}
 
-      <footer className="relative z-10 border-t border-white/5 px-4 py-10 text-center">
+<footer className="relative z-10 border-t border-white/5 px-4 py-10">
+  <div className="mx-auto max-w-6xl">
 
-        <div className="mx-auto max-w-6xl">
+    {/* Related Tools */}
+    <div className="mb-10 text-center">
+      <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/50">
+        Explore More
+      </p>
 
-          <p className="text-sm font-semibold text-white">
-            KrishAIWorks
-          </p>
+      <h3 className="mt-2 text-xl font-bold text-white">
+        More AI Content Tools
+      </h3>
 
-          <p className="mt-2 text-xs text-zinc-600">
-            AI Solutions That Work
-          </p>
+      <p className="mx-auto mt-2 max-w-xl text-sm text-zinc-500">
+        Explore more AI-powered tools from KrishAIWorks to create,
+        improve, and optimize your content.
+      </p>
+    </div>
 
-          <p className="mt-6 text-xs text-zinc-700">
-            © {new Date().getFullYear()} KrishAIWorks. All rights reserved.
-          </p>
+    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
 
+      {/* AI LinkedIn Post Generator */}
+      <a
+        href="https://ailinkedinpostgenerator.krishaiworks.com/"
+        className="group rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition-all duration-300 hover:border-white/20 hover:bg-white/[0.06]"
+      >
+        <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.05] text-lg">
+          💼
         </div>
 
-      </footer>
+        <h4 className="font-semibold text-white transition-colors group-hover:text-zinc-200">
+          AI LinkedIn Post Generator
+        </h4>
+
+        <p className="mt-2 text-xs leading-5 text-zinc-500">
+          Create professional and engaging LinkedIn posts with AI.
+        </p>
+      </a>
+
+      {/* AI YouTube Title & Description Generator */}
+      <a
+        href="https://aiyoutubetitledescriptiongenerator.krishaiworks.com/"
+        className="group rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition-all duration-300 hover:border-white/20 hover:bg-white/[0.06]"
+      >
+        <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.05] text-lg">
+          🎬
+        </div>
+
+        <h4 className="font-semibold text-white transition-colors group-hover:text-zinc-200">
+          AI YouTube Title & Description
+        </h4>
+
+        <p className="mt-2 text-xs leading-5 text-zinc-500">
+          Generate engaging titles and descriptions for YouTube videos.
+        </p>
+      </a>
+
+      {/* AI Blog Generator */}
+      <a
+        href="https://aibloggenerator.krishaiworks.com/"
+        className="group rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition-all duration-300 hover:border-white/20 hover:bg-white/[0.06]"
+      >
+        <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.05] text-lg">
+          ✍️
+        </div>
+
+        <h4 className="font-semibold text-white transition-colors group-hover:text-zinc-200">
+          AI Blog Generator
+        </h4>
+
+        <p className="mt-2 text-xs leading-5 text-zinc-500">
+          Generate high-quality blog content quickly with AI.
+        </p>
+      </a>
+
+      {/* AI Text Humanizer */}
+      <a
+        href="https://aitexthumanizer.krishaiworks.com/"
+        className="group rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition-all duration-300 hover:border-white/20 hover:bg-white/[0.06]"
+      >
+        <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.05] text-lg">
+          📝
+        </div>
+
+        <h4 className="font-semibold text-white transition-colors group-hover:text-zinc-200">
+          AI Text Humanizer
+        </h4>
+
+        <p className="mt-2 text-xs leading-5 text-zinc-500">
+          Make AI-generated content sound more natural and human.
+        </p>
+      </a>
+
+    </div>
+
+    {/* Main Footer */}
+    <div className="mt-10 flex flex-col items-center justify-between gap-5 border-t border-white/5 pt-8 text-center sm:flex-row sm:text-left">
+
+      <div>
+        <p className="text-sm font-semibold text-white">
+          KrishAIWorks
+        </p>
+
+        <p className="mt-2 text-xs text-zinc-600">
+          AI Solutions That Work
+        </p>
+      </div>
+
+      <p className="text-xs text-zinc-700">
+        © {new Date().getFullYear()} KrishAIWorks. All rights reserved.
+      </p>
+
+    </div>
+
+  </div>
+</footer>
 
     </main>
   );
